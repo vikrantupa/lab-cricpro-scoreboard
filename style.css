@@ -1,16 +1,47 @@
 /* Type your code here */
+/*  */
+*{
+	margin: auto;
+}
+body {
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Hind', sans-serif;
+	background-image: url("assets/background-image1.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 100% 100%;
+}
+.a{
+	color: blueviolet;
+}
+.lable {
+	color: white;
+}
 
+.logo {
+	float: right;
+	display: flex;
+}
+
+.thd {
+	background-color: tomato;
+}
+
+.non {
+	padding: 10px;
+}
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
 	position: relative;
 	top: 750px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+	font-style: normal;
+
 }
